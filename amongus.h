@@ -10,8 +10,8 @@ std::stack<char> stack;
 #define VENTED accumulator2 += 10;
 #define SUSSY accumulator2--;
 #define ELECTRICAL accumulator2 = 0;
-#define WHO? while(stack.top() != accumulator2) {
-#define WHERE? }
+#define WHO while(stack.top() != accumulator2) {
+#define WHERE }
 #define RED red
 void red() { accumulator1++; }
 #define BLUE blue
