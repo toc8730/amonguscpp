@@ -2,6 +2,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#pragma warning(suppress: 4244)
+#pragma warning(suppress: 4552)
 #pragma once
 char accumulator1 = 0;
 char accumulator2 = 0;
