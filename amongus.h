@@ -32,7 +32,7 @@ void yellow() {
 void cyan() {
 	srand(time(NULL));
 	int i = rand() % (accumulator1 + 1);
-	for (int j = 0; j++; j < i)
+	for (int j = 0; j < i; j++)
 		stack.pop();
 }
 #define BLACK black
