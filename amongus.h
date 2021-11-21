@@ -42,6 +42,8 @@ void black() {
 }
 #define WHITE white
 void white() { accumulator1--; }
+#define BROWN brown 
+void brown() { accumulator1 = stack.top(); }
 #define LIME lime
 void lime() { stack.top() *= 2; }
 #define PINK pink
